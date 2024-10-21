@@ -1,0 +1,1 @@
+<h1>Selamat Datang Di Aplikasi Pendaftaran Lomba SMK Syafi'i Akrom</h1>

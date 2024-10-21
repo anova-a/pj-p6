@@ -1,0 +1,55 @@
+.tambah {
+    margin : 0 auto;
+    height : auto;
+    width: 500px;
+    box-sizing: border-box;
+    padding : 15px 20px;
+    border-radius : 8px;
+    border: 2px solid rgb(226, 121, 156);
+    box-shadow: 0 0 25px palevioletred;
+}
+.h1tambah{
+    margin-top : 20px;
+    margin-bottom : 20px;
+    text-align : center;
+    color :palevioletred;
+}
+
+.tambah input[type=submit]{
+    margin-top: 1em;
+    padding: 8px 30px;
+    border: none;
+    background-color:rgb(247, 188, 208);
+    color: black;
+    border-radius: 5px;
+    margin-left: 160px;
+    cursor: pointer;
+    
+      
+}
+
+.tambah input[type=text]{
+    width: 95%;
+    padding: 5px 3px;
+    margin: 10px 5px;
+    background-color: rgb(247, 188, 208);
+    border-radius: 10px;
+}
+
+.tambah input[type=date]{
+    width: 95%;
+    border: 1px solid black;
+    padding: 5px 3px;
+    margin: 10px 5px;
+    background-color:palevioletred;
+    border-radius: 10px;
+}
+
+select{
+    width: 98%;
+    padding: 5px 3px;
+    margin: 10px 5px;
+    background-color:palevioletred;
+    border: 1px solid black;
+    border-radius: 10px;
+}
