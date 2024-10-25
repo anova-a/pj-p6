@@ -1,13 +1,11 @@
 table,th,td {
     border: 1px solid black;
-    /* agar garis yang dihasilkan satu tidak dobel */
     border-collapse: collapse;
     padding: 10px;
     
     }
     table {
     width: 800px;
-    /* agar posisi tabel berada ditengah */
     margin: 40px ;
     }
     .daftar {

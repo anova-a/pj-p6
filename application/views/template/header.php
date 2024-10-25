@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="<?php echo base_url() ?>/assets/menu.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>/assets/pendaftaran.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>/assets/tambah.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>/assets/profil.css">
 </head>
 <body>
     

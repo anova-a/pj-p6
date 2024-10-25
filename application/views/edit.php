@@ -4,10 +4,6 @@
     <form action="<?= base_url ('pendaftaran/update') ?>" method="POST">
 
         <input type="hidden" value="<?= $edit['id'];?>" name="id">
-
-        <label for="">Nama Pendaftar</label>
-        <input type="text" name="nama_pendaftaran" value="<?= $edit['nama_pendaftaran'];?>" >
-        <br>
         <label for="">Jenis Lomba</label>
             <br>
             <select name="nama_lomba">
@@ -16,6 +12,9 @@
                 <?php endforeach ; ?>
             </select> 
             <br>
+        <label for="">Nama Pendaftar</label>
+        <input type="text" name="nama_pendaftaran" value="<?= $edit['nama_pendaftaran'];?>" >
+        <br>
         <label for="">Kelas</label>
         <input type="text" name="kelas" value="<?= $edit['kelas'];?>" >
         <br>

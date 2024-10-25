@@ -44,6 +44,14 @@
     background-color:palevioletred;
     border-radius: 10px;
 }
+.tambah input[type=password]{
+    width: 95%;
+    border: 1px solid black;
+    padding: 5px 3px;
+    margin: 10px 5px;
+    background-color:palevioletred;
+    border-radius: 10px;
+}
 
 select{
     width: 98%;

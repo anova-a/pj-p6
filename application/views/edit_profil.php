@@ -1,3 +1,17 @@
+<style>
+    .h2 {
+    margin : 0 auto;
+    height : auto;
+    width: 500px;
+    box-sizing: border-box;
+    padding : 15px 20px;
+    border-radius : 8px;
+    border: 2px solid rgb(226, 121, 156);
+    box-shadow: 0 0 25px palevioletred;
+    }
+</style>
+
+<div class="tambah">
 <h2>edit profil</h2>
 <form action="<?= base_url() ?>profil/updateprofil" method="POST">
 
