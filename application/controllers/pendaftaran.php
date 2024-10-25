@@ -23,7 +23,7 @@ class pendaftaran extends CI_Controller {
     }
     public function hapus($id)
     {
-        $this->db->delete('tb_pendaftaran',['id' => $id]);
+        $this->db->delete('tb_pendaftaran',['id_lomba' => $id]);
         redirect('pendaftaran');
     }
     public function edit($id)
@@ -39,6 +39,7 @@ class pendaftaran extends CI_Controller {
         $this->load->view('edit', $data);
         $this->load->view('template/footer');
     }
+    
     public function update()
     {
         $data =

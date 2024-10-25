@@ -19,7 +19,7 @@
                 <td><?php echo $dftr['no_hp']?></td>
                 <td><?php echo $dftr['tgl_daftar']?></td>
                 <td><a class="edit" href="<?php echo base_url(); ?>pendaftaran/edit/<?= $dftr['id_jns'] ?>">edit</a></td>
-                <td><a class="hapus" onclick="return confirm('Yakin Hapus?')" href="<?php echo base_url(); ?>pendaftaran/hapus/<?= $dftr['id_jns'] ?>">hapus</a></td>
+                <td><a class="hapus" onclick="return confirm('Yakin Hapus?')" href="<?= base_url(); ?>pendaftaran/hapus/<?= $dftr['id_jns'] ?>">hapus</a></td>
                 
             </tr>
             <?php $i++; ?>

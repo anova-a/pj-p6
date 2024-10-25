@@ -38,6 +38,7 @@ class data_event extends CI_Controller {
         $this->load->view('edit2',$data);
         $this->load->view('template/footer');
     }
+    
     public function update()
     {
         $data =

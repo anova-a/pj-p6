@@ -3,6 +3,7 @@
 
     <form action="<?= base_url ('pendaftaran/update') ?>" method="POST">
 
+    
         <input type="hidden" value="<?= $edit['id'];?>" name="id">
         <label for="">Jenis Lomba</label>
             <br>
