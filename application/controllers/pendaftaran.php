@@ -30,13 +30,12 @@ class pendaftaran extends CI_Controller {
     {
         $this->load->model('pendaftaran_model');
         $data['tb_jnslomba'] = $this->db->get('tb_jnslomba')->result_array();
-        
         $data['edit'] = $this->pendaftaran_model->getPendaftaranById($id);
 
 
         $this->load->view('template/header');
         $this->load->view('template/menu');
-        $this->load->view('edit', $data);
+        $this->load->view('edit',$data);
         $this->load->view('template/footer');
     }
     
